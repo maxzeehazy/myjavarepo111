@@ -1,4 +1,4 @@
-package com.javaonlinecourse.b2lesson2.homework;
+package com.javaonlinecourse.b1lesson2.homework;
 
 /**
  * Число 6 воистино великолепно.
