@@ -12,6 +12,16 @@ package com.javaonlinecourse.b1lesson2.homework;
  */
 public class HW04 {
     public static void main(String[] args) {
+        int v,d;
+        v = 17;
+        d = 4;
 
+        if ((d != 4 & v <= 60) | (d == 4 & v <= 15)){
+            System.out.println(0 + " Штрафа нет");
+        } else if ((d != 4 & v > 60 & v <= 80) | (d == 4 & v > 15 & v <= 20)){
+            System.out.println(1 + " Небольшой штраф");
+        } else {
+            System.out.println(2 + " Большой штраф");
+        }
     }
 }

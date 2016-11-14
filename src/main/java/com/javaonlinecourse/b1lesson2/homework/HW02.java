@@ -11,5 +11,17 @@ package com.javaonlinecourse.b1lesson2.homework;
 public class HW02 {
     public static void main(String[] args) {
 
+        int boyStyleLevel, girlStyleLevel;
+        boyStyleLevel = 10;
+        girlStyleLevel = 10;
+
+        if (boyStyleLevel >= 8 & girlStyleLevel >= 8){
+            System.out.println(0 + " (да)");
+        } else if (boyStyleLevel <= 2 & girlStyleLevel <= 2){
+            System.out.println(2 + " (нет)");
+        } else {
+            System.out.println(1 + " (вероятно)");
+        }
+
     }
 }

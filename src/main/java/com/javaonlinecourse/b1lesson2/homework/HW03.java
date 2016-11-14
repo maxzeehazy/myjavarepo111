@@ -8,6 +8,16 @@ package com.javaonlinecourse.b1lesson2.homework;
  */
 public class HW03 {
     public static void main(String[] args) {
+        int a, b, c;
+        a = 6;
+        b = 12;
+
+        c = a-b;
+        boolean y = Math.abs(c) == 6 ;
+
+
+        System.out.println(y);
+
 
     }
 }

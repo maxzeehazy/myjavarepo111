@@ -10,6 +10,27 @@ package com.javaonlinecourse.b1lesson2.homework;
 public class HW01 {
     public static void main(String[] args) {
 
+        int quantity;
+        quantity = 40;
+        boolean weekdays = true,a, b;
+        a = true;
+        b = false;
+
+
+        if (quantity >= 40 & quantity <= 59 & weekdays)
+        {
+            System.out.println(a);
+
+        }
+        else if  (quantity <= 40)
+        {
+            System.out.println(b);
+
+        }
+        if (quantity >= 60)
+        {
+            System.out.println(b);
+        }
+
     }
 }
-
