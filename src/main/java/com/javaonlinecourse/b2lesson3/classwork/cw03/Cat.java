@@ -5,10 +5,15 @@ package com.javaonlinecourse.b2lesson3.classwork.cw03;
  * @version 1.0
  *          19.11.2016
  */
-abstract class Animal {
-    String name;
-    int age;
-    boolean hungry;
+public class Cat extends DomesticAnimal {
 
-    abstract void voice();
+    @Override
+    void live() {
+
+    }
+
+    @Override
+    void voice() {
+
+    }
 }
