@@ -10,7 +10,7 @@ package com.javaonlinecourse.b2lesson3.homework.hw02;
  */
 public class Task03 {
 
-  /*  public static void main(String[] args) throws Exception
+ public static void main(String[] args) throws Exception
     {
 
         BankCard card = new ApplePay();
@@ -35,10 +35,9 @@ public class Task03 {
         }
     }
 
-    public static class ApplePay
-    {
+    public static class ApplePay extends BankCard {
         public String getVendor () {
             return Vendor.APPLE_PAY;
         }
-    }*/
+    }
 }

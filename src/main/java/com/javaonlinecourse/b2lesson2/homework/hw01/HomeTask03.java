@@ -9,6 +9,8 @@ public class HomeTask03 {
         short shortVariable = 9;
         char charVariable = '0';
         int result = (charVariable + shortVariable);
-        System.out.println(result);
+
+
+        System.out.println((char)result);
     }
 }

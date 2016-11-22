@@ -4,11 +4,11 @@ package com.javaonlinecourse.b2lesson2.homework.hw02;
  * Раскомментировать код
  * Расставить как можно меньше модификаторов static так, чтобы пример скомпилировался.
  */
-public class HomeTask01 {
-  /*  public int Lenin = 5;
-    public int B = 5;
-    public int Gorbachev = 5;
-    public int Perestroyka = 5;
+public  class HomeTask01 {
+   public int Lenin = 5;
+    public static int B = 5;
+    public static int Gorbachev = 5;
+    public static int Perestroyka = 5;
 
     public void main(String[] args)
     {
@@ -24,5 +24,5 @@ public class HomeTask01 {
     public int getA()
     {
         return Lenin;
-    }*/
+    }
 }

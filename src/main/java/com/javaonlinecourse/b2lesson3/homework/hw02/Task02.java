@@ -9,17 +9,17 @@ package com.javaonlinecourse.b2lesson3.homework.hw02;
  * Метод main менять нельзя!
  */
 public class Task02 {
-    /*public static void main(String[] args) throws Exception
+    public static void main(String[] args) throws Exception
     {
         JavaProgrammer javaProgrammer = new JavaProgrammer();
         System.out.println(javaProgrammer.translate());
     }
 
-    public abstract static class JavaProgrammer
+    public static class JavaProgrammer
     {
         public String translate()
         {
             return "Я программист на Java";
         }
-    }*/
+    }
 }

@@ -17,4 +17,26 @@ package com.javaonlinecourse.b2lesson1.homework.hw02;
  */
 public class HW03 {
 
+    public static void main(String[] args) {
+
+        sum(5);
+    }
+
+    public static void sum (int n) {
+
+        int sum = 0;
+
+        for (int i = 1; i <= n ; i++) {
+
+            sum += i;
+
+            System.out.println(sum);
+
+        }
+
+    }
+
 }
+
+
+

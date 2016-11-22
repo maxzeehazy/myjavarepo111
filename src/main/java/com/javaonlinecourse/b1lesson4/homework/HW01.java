@@ -23,6 +23,8 @@ public class HW01 {
 
     public static int min(int a, int b, int c, int d) {
         // реализовать тут
+        int mainMin;
+        int m2 = min(a,b);
         return 0;
     }
 

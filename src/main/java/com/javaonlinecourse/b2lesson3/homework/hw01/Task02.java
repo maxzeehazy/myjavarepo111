@@ -10,7 +10,8 @@ package com.javaonlinecourse.b2lesson3.homework.hw01;
 public class Task02 {
     public static void main(String[] args) throws Exception
     {
-
+    Cocktail isAlcoholic = new Cocktail();
+        System.out.println(isAlcoholic);
     }
 
     public interface Drinkable
@@ -18,13 +19,19 @@ public class Task02 {
         boolean isAlcoholic();
     }
 
-    public static class Cocktail
+    public static class Cocktail implements Drinkable
     {
+
+
         @Override
         public String toString()
         {
-            /* подумай и связи реализованные методы тут */
-           return "";
+            return "Домой";
+        }
+        @Override
+        public boolean isAlcoholic(){
+
+            return false;
         }
     }
 }

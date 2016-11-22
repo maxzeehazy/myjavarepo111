@@ -15,20 +15,16 @@ public class Task05 {
         System.out.println(A.toString());
         System.out.println(INDEX.toString());
     }
-
     interface C
     {
-
     }
     interface B
     {
         public static A A = new A();
     }
-
     class A implements B, C
     {
         static int INDEX = 1;
-
         @Override
         public String toString()
         {

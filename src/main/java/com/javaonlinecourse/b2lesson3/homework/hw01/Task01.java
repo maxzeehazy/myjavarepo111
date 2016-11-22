@@ -12,6 +12,9 @@ package com.javaonlinecourse.b2lesson3.homework.hw01;
  */
 
 public class Task01 {
+    public static void main(String[] args) throws Exception
+    {
+    }
 
     public interface Drinkable
     {
@@ -20,6 +23,8 @@ public class Task01 {
         void saySomethingNice();
 
         boolean isReadyToForAdventures();
+
+
     }
 
     public interface Alcoholic extends Drinkable
@@ -29,8 +34,22 @@ public class Task01 {
         void startToDance();
     }
 
-    public class Vodka
-    {
 
+    public static class Vodka implements Drinkable
+
+        {
+
+            public void orderMore(String message){
+            }
+            public void saySomethingNice(){
+            }
+            public  boolean isReadyToForAdventures(){
+                return Alcoholic.READY_FOR_ADVENTURES;
+            }
+            public void startToDance(){
+
+            }
+
+        }
     }
-}
+

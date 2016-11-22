@@ -11,14 +11,13 @@ import java.util.Random;
  */
 public class HW03 {
     public static void main(String[] args) {
-        Random rnd = new Random();
-        isOddOrEven(rnd.nextInt(20000));
 
-    }
+        int n = 10;
+        if (n % 2 == 0)
 
-    static void isOddOrEven(int n)
-    {
-        //реализовать тут
-    }
+            System.out.println("Четное");
+        else
+            System.out.println("Нечетное");
+        }
+
 }
-

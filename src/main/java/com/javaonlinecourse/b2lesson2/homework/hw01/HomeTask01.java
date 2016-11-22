@@ -10,7 +10,7 @@ public class HomeTask01 {
         int beta = (byte) alpha + 51;
         byte gamma = (byte) (alpha * beta);
         double delta = (char) 1234.15;
-        long epsilon = (short) (alpha + delta / gamma + beta);
+        long epsilon = (char) (alpha + delta / gamma + beta);
         System.out.println(epsilon);
     }
 }

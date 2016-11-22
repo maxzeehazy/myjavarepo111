@@ -22,13 +22,20 @@ public class Task03 {
         boolean isAlcoholic();
     }
 
-    public static class Beer
-    {
+    public static class Whiskey implements Drinkable {
 
+        @Override
+        public boolean isAlcoholic() {
+            return false;
+        }
     }
 
-    public static class Cola
+    public static class Soda implements Drinkable
     {
 
+        @Override
+        public boolean isAlcoholic() {
+            return false;
+        }
     }
 }

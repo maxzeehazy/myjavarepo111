@@ -9,7 +9,11 @@ package com.javaonlinecourse.b1lesson4.homework;
  */
 public class HW02 {
     public static void main(String[] args) {
-        int x;
-        int sum;
+        int number = 1234, summery =0;
+        while (number >= 1) {
+            summery = summery + number % 10;
+            number = number / 10;
+        }
+        System.out.println(summery);
     }
 }

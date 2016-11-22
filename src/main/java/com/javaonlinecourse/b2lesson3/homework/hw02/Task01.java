@@ -16,7 +16,7 @@ package com.javaonlinecourse.b2lesson3.homework.hw02;
  */
 public class Task01 {
 
- /*   public static void main(String[] args) throws Exception
+  public static void main(String[] args) throws Exception
     {
         JavaProgrammer javaProgrammer = new JavaProgrammer();
         PascalProgrammer pascalProgrammer = new PascalProgrammer();
@@ -33,8 +33,8 @@ public class Task01 {
 
         public String code()
         {
-            return "Я программирую на" + getLanguage();
+            return "Я программирую на " + getLanguage();
         }
     }
-    */
+
 }
